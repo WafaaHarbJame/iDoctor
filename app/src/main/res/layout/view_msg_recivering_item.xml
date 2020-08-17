@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:layout_margin="4dp"
+    android:divider="#00CCCCCC"
+    android:gravity="left"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="#00CCCCCC"
+        android:layout_gravity="left"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="1dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="left"
+            android:divider="#00CCCCCC"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_gravity="left"
+              >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:text="اسم الطبيب"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="right"
+                    android:gravity="left|center_vertical"
+                    android:id="@+id/name"
+                    android:background="@drawable/white_input"
+                    android:paddingRight="15dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layoutDirection="ltr"
+                    android:textDirection="ltr"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

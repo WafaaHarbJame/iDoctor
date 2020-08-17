@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#efefef">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/objects_list"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:dividerHeight="0dp"
+        android:paddingBottom="70dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:background="#21CD4C"
+        android:paddingBottom="0dp"
+        android:gravity="center_horizontal|center"
+
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:text="@string/patients"
+        >
+
+    </TextView>
+
+    <include layout="@layout/nav"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

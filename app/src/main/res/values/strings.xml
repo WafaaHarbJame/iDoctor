@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">IDoctor</string>
+    <string name="Profile">Profile</string>
+    <string name="Appointments">Appt\'s</string>
+    <string name="notifications">Notifi\'s</string>
+    <string name="home">Home</string>
+    <string name="doctors">Doctors</string>
+    <string name="clinics">Clinics</string>
+    <string name="medical_centers">Medical Centers</string>
+    <string name="nurses">Nurses</string>
+    <string name="pharmacies">Pharmacies</string>
+    <string name="phone_or_email">Phone number or Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="no_notifications">You don\'t have any notifications yet !</string>
+    <string name="patients">Patients</string>
+    <string name="search">Search...</string>
+    <string name="video">Video call</string>
+    <string name="meeting">Person</string>
+    <string name="logout">Logout</string>
+    <string name="chat">Chat</string>
+    <string name="add_appo">Add Appointment</string>
+    <string name="Hello">Hello there</string>
+    <string name="intro">"Meet all of your medical needs with "</string>
+    <string name="create_account">Create new account</string>
+    <string name="create_account_done">Account was created</string>
+    <string name="url_profile">https://idoctortech.com/api/android/en-mtabs.php?id=</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="You_have_an_appointment_now">You have an appointment now</string>
+    <string name="cancel">Cancle it</string>
+    <string name="accept">Accept</string>
+    <string name="url_get_appo">https://idoctortech.com/api/android/en/get_appos.php</string>
+    <string name="his_profile">"Medical profile for "</string>
+    <string name="url_doctor_appo">https://idoctortech.com/api/android/en/my-appo.php?id=</string>
+    <string name="patient_medical_profile">https://idoctortech.com/api/android/en-mtabs.php?id=</string>
+
+    <string name="hebron">Hebron</string>
+    <string name="bethlehem">Bethlehem</string>
+    <string name="jerusalem">Jerusalem</string>
+    <string name="jericho">Jericho</string>
+    <string name="ramallah">Ramallah and Al-Bireh</string>
+    <string name="salfit">Salfit</string>
+    <string name="qalqilya">Qalqilya</string>
+    <string name="nablus">Nablus</string>
+    <string name="tulkarm">Tulkarm</string>
+    <string name="tubas">Tubas</string>
+    <string name="jenin">Jenin</string>
+    <string name="north_gaza">North Gaza</string>
+    <string name="gaza">Gaza</string>
+    <string name="dair">Deir al-Balah</string>
+    <string name="khan">Khan Yunis</string>
+    <string name="rafah">Rafah</string>
+    <string name="satisfaction">We Create Your Satisfaction</string>
+    <string name="user">User</string>
+    <string name="specialty">Specialty</string>
+    <string name="price">Starting from:</string>
+    <string name="period">Choose a period</string>
+    <string name="m15">15 Min</string>
+    <string name="m30">30 Min</string>
+    <string name="m45">45 Min</string>
+    <string name="paid">Paid</string>
+    <string name="book">Book</string>
+    <string name="msg">https://idoctortech.com/api/android/msg/m/uindex.php</string>
+    <string name="lang">Language / اللغة</string>
+    <string name="url_registration">https://idoctortech.com/api/android/en/create-profile.php</string>
+    <string name="agora_app_id">fcd04455cd45432faf1298fac2db4dc9</string>
+    <string name="view_more">View More</string>
+    <string name="object_agenda">https://idoctortech.com/api/android/en-view-object.php?id=</string>
+    <string name="object_name">object_en_name</string>
+    <string name="view_more2">View More</string>
+    <string name="url_doctor_profile">https://idoctortech.com/api/android/en-mprofile.php?id=</string>
+    <string name="profile_text">Profile</string>
+    <string name="appo_added">The appointment has been added, and is awaiting doctor approval</string>
+    <string name="appo_not_added">Appointment was not added!</string>
+    <string name="ok">Ok</string>
+    <string name="rate">Rate the meeting</string>
+    <string name="rateText">Rate comment</string>
+    <string name="msgHint">Type here</string>
+    <string name="fname">First name</string>
+    <string name="sname">Second name</string>
+    <string name="lname">Last name</string>
+    <string name="dob">DOB</string>
+    <string name="gender">Gender</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="insurance">Insurance</string>
+    <string name="phone">Phone number</string>
+    <string name="height">Height(cm)</string>
+    <string name="wight">Wight(kg)</string>
+    <string name="blood">Blood Type</string>
+    <string name="smoking">Do you smoke</string>
+    <string name="drink">Do You drink alcohol</string>
+    <string name="update">Update</string>
+    <string name="palestine">Palestine</string>
+    <string name="jordan">Jordan</string>
+    <string name="error_login">Wrong login information, please try again!</string>
+    <string name="d_msg">https://idoctortech.com/api/android/msg/m/</string>
+    <string name="error_register">There an error in registration, Try later.</string>
+
+</resources>
