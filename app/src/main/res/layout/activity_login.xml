@@ -62,8 +62,9 @@
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:padding="10dp"
+            android:textStyle="bold"
             android:id="@+id/loginBtn"
-            android:background="@drawable/button"
+            android:background="@drawable/input2"
             />
     </LinearLayout>
 
