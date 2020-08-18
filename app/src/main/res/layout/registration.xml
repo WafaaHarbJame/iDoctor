@@ -149,9 +149,24 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:id="@+id/dateBirthTxt"
+                android:id="@+id/genderTxt"
                 android:layout_height="wrap_content"
                 android:hint="@string/choose_date"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/gender" />
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/dateBirthTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/choose_gender"
                 android:textStyle=""
                 android:padding="@dimen/_8sdp"
                 android:background="@drawable/round_corner_gray_border_gray"

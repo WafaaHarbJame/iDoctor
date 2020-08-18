@@ -112,5 +112,6 @@
     <string name="choose_date">Choose Date Birth</string>
     <string name="blood_type">Choose Blood type</string>
     <string name="choose_blood_type">Choose Blood Type</string>
+    <string name="choose_gender">Choose Gender</string>
 
 </resources>
