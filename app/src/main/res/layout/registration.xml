@@ -17,8 +17,8 @@
             android:layout_marginEnd="@dimen/_8sdp"
             android:orientation="vertical">
             <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
                 android:background="@drawable/circl"
                 android:layout_margin="10dp"
                 android:src="@drawable/ic_action_close"
@@ -28,8 +28,8 @@
                 android:id="@+id/close"/>
             <com.github.siyamed.shapeimageview.CircularImageView
                 android:id="@+id/userImg"
-                android:layout_width="@dimen/_60sdp"
-                android:layout_height="@dimen/_60sdp"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
                 android:src="@drawable/avatar"
                 android:gravity="center"
                 android:layout_gravity="center"
@@ -153,23 +153,32 @@
                 android:hint="@string/choose_date"
                 android:textStyle=""
                 android:padding="@dimen/_8sdp"
+                android:drawableEnd="@drawable/ic_angle_down"
                 android:background="@drawable/round_corner_gray_border_gray"
                 android:layout_marginBottom="@dimen/_8sdp" />
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_8sdp"
                 android:text="@string/gender" />
-            <TextView
-                android:layout_width="match_parent"
-                android:id="@+id/dateBirthTxt"
-                android:layout_height="wrap_content"
-                android:hint="@string/choose_gender"
-                android:textStyle=""
-                android:padding="@dimen/_8sdp"
-                android:background="@drawable/round_corner_gray_border_gray"
-                android:layout_marginBottom="@dimen/_8sdp" />
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:background="@drawable/round_corner_gray_border_gray"
+            android:padding="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/genderSpinner"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
@@ -177,16 +186,179 @@
                 android:layout_marginBottom="@dimen/_8sdp"
                 android:text="@string/blood_type" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/bloodSpinner"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:entries="@array/blood_arrays"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
-                android:id="@+id/bloodTxt"
                 android:layout_height="wrap_content"
-                android:hint="@string/choose_blood_type"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/country" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/countrySpinner"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/city" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/citySpinner"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/Insurance_company" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/InsuranceCompanySpinner"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/length" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/lengthNumTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_phoneNumber"
                 android:textStyle=""
                 android:padding="@dimen/_8sdp"
-                android:background="@drawable/round_corner_gray_border_gray">
+                android:inputType="number"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/wight" />
 
-            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/wightNumTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_wight"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:inputType="number"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/smoking" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/smokingSpinner"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/drink" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:gravity="center_vertical"
+                android:padding="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/drinkSpinner"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/registerBut"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:text="@string/next"
+                android:background="@drawable/round_corner_green_fill"
+                android:textColor="@color/white1"
+                android:layout_marginBottom="65dp"
+                 />
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

@@ -28,12 +28,12 @@
             android:textSize="18dp"
             android:layout_margin="10dp"
             android:hint="@string/phone_or_email"
-
+            android:drawableStart="@drawable/ic_person"
             android:textDirection="rtl"
             android:layout_gravity="right"
             android:gravity="center"
             android:id="@+id/email"
-            android:background="@drawable/input"
+            android:background="@drawable/button"
 
             />
         <EditText
@@ -44,17 +44,18 @@
             android:layout_margin="10dp"
             android:hint="@string/password"
             android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_password"
             android:textDirection="rtl"
             android:layout_gravity="right"
             android:gravity="center"
             android:id="@+id/password"
-            android:background="@drawable/input"
+            android:background="@drawable/button"
             />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#ffffff"
+            android:textColor="@color/greenMain"
             android:text="@string/login"
             android:textSize="22dp"
             android:layout_marginTop="20dp"

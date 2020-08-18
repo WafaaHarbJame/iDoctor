@@ -127,6 +127,14 @@
     <string name="reload">Reload</string>
     <string name="retry">Retry</string>
     <string name="choose_gender">Choose Gender</string>
+    <string name="Insurance_company">Insurance company</string>
+    <string name="length">"Length (cm) "</string>
+    <string name="enter_wight">"Enter Weight (kg) "</string>
+    <string name="next">next</string>
+    <string-array name="blood_arrays">
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
     <string name="edit">Edit</string>
     <string name="name">Name</string>
     <string name="mobile_number">Mobile Number</string>
