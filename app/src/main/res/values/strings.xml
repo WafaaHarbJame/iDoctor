@@ -144,5 +144,7 @@
     <string name="share_with">Share with</string>
     <string name="no_address">No Address</string>
     <string name="soon">Soon</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
 
 </resources>

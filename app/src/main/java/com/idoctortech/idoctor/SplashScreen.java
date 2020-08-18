@@ -8,12 +8,9 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.idoctortech.idoctor.Activity.ActivityBase;
-import com.idoctortech.idoctor.ApiHandler.DataFeacher;
-import com.idoctortech.idoctor.Classes.Constants;
+import com.idoctortech.idoctor.Activity.WelcomeActivity;
 import com.idoctortech.idoctor.Classes.UtilityApp;
 import com.idoctortech.idoctor.Dialogs.ConfirmDialog;
-import com.idoctortech.idoctor.Model.MemberModel;
-import com.idoctortech.idoctor.Model.ResultAPIModel;
 
 
 public class SplashScreen extends ActivityBase {
@@ -80,7 +77,7 @@ public class SplashScreen extends ActivityBase {
 
                     } else {
 
-                        Intent intent = new Intent(getActiviy(), MainActivity.class);
+                        Intent intent = new Intent(getActiviy(), WelcomeActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);
                         finish();
