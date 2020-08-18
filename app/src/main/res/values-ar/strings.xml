@@ -97,4 +97,17 @@
     <string name="error_login">بيانات الدخول خاطئة ، يرجى المحاولة مرة اخرى!</string>
     <string name="d_msg">https://idoctortech.com/api/android/msg/m/</string>
     <string name="error_register">خطأ في عملية انشاء حساب جديد، يرجى المحاولة مرة اخرى</string>
+    <string name="first_name">First Name</string>
+    <string name="enter_firstName">Enter First Name</string>
+    <string name="enter_secondName">Enter Second Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="Third_name">Final Name</string>
+    <string name="enter_thirdName">Enter Third NAME</string>
+    <string name="enter_Confirm_password">Enter confirm Password</string>
+    <string name="cofirm_password">Confirm Password</string>
+    <string name="enter_phoneNumber">enter Phone Number</string>
+    <string name="date_ofBirth">Date Of Birth</string>
+    <string name="choose_date">Choose Date Birth</string>
+    <string name="blood_type">Choose Blood type</string>
+    <string name="choose_blood_type">Choose Blood Type</string>
 </resources>

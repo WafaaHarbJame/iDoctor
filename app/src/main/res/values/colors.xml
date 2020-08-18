@@ -10,6 +10,10 @@
     <color name="whitegray">#E4E4E4</color>
     <color name="gray">#A5A5A5</color>
     <color name="black">#191919</color>
+    <color name="gray1">#efefef</color>
+    <color name="white1">#FFFFFF</color>
+
+
 </resources>
 
 

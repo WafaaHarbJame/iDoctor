@@ -1,30 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Login"
-    android:background="#efefef">
+    android:orientation="vertical">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <WebView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circl"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_action_close"
+                android:padding="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/close"/>
+            <com.github.siyamed.shapeimageview.CircularImageView
+                android:id="@+id/userImg"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:src="@drawable/avatar"
+                android:gravity="center"
+                android:layout_gravity="center"
+                app:siBorderColor="@color/white"
+                app:siBorderWidth="1dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/avatar"
+                android:gravity="center"
+                android:text="@string/add_photo"
+                android:layout_gravity="center" />
+                      <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:text="@string/first_name" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/firstNameTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_firstName"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/second_name" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/secondNameTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_secondName"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/Third_name" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/ThirdNameTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_thirdName"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/password" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/passwordTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_password"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:inputType="textPassword"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/cofirm_password" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/confirmPasswordTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_Confirm_password"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:inputType="textPassword"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/phone" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/phoneNumberTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_phoneNumber"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:inputType="number"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/date_ofBirth" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/dateBirthTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/choose_date"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:background="@drawable/round_corner_gray_border_gray"
+                android:layout_marginBottom="@dimen/_8sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:text="@string/blood_type" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/bloodTxt"
+                android:layout_height="wrap_content"
+                android:hint="@string/choose_blood_type"
+                android:textStyle=""
+                android:padding="@dimen/_8sdp"
+                android:background="@drawable/round_corner_gray_border_gray">
+
+            </TextView>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+        <WebView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/web"
+        android:visibility="gone"
         android:paddingTop="30dp"
         />
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/circl"
-        android:layout_margin="10dp"
-        android:src="@drawable/ic_action_close"
-        android:padding="10dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="10dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:id="@+id/close"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,4 +207,4 @@
         android:id="@+id/nav"
         android:layout_alignParentBottom="true"
         android:visibility="gone"/>
-</RelativeLayout>
+</LinearLayout>
