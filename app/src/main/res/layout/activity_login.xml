@@ -55,16 +55,17 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/greenMain"
+            android:textColor="@color/white1"
             android:text="@string/login"
             android:textSize="22dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
+            android:textAllCaps="false"
             android:padding="10dp"
             android:textStyle="bold"
             android:id="@+id/loginBtn"
-            android:background="@drawable/input2"
+            android:background="@drawable/gray_button"
             />
     </LinearLayout>
 
