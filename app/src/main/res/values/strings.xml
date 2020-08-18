@@ -146,5 +146,6 @@
     <string name="soon">Soon</string>
     <string name="english">English</string>
     <string name="arabic">العربية</string>
+    <string name="enter_length">Enter Length</string>
 
 </resources>
